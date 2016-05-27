@@ -17,12 +17,15 @@ body {
     width: 659px;
     height: 494px;
 }
-.ryu-ready, .ryu-still, .ryu-throwing .ryu-cool {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
   width: 659px;
   height: 494px;
 }
-.ryu-ready, .ryu-throwing {
+.ryu-state {
   display: none;
+}
+.ryu-state.ryu-active {
+  display: block;
 }
 .ryu-ready {
   background-image: url('../images/ryu-ready-position.gif');
